@@ -1,3 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
-
+.a1{
+	color: black;
+	font-size: 100%;
+	font-weight: bold;
+	text-align: center;
+}
+.a2{
+	color: #C1DF92;
+	font-weight: bold;
+}
+.bg1{
+	background: url("../images/rotate.jpg")no-repeat;
+	width: 100%;
+	height: 100%;
+}
