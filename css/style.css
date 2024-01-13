@@ -59,4 +59,6 @@ nav{
 .topg img{
     display: grid;
     place-items: end center;
+    width:100%;
+    height:auto;
 }
