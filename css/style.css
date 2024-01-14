@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+main
+{
+    background-color: #A4BE7B;
+}
 nav{
     display: flex;
     justify-content: space-between;
