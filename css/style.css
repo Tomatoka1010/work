@@ -138,7 +138,7 @@ footer{
     
     .fotg{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3,33.33%);
         place-items: center;
         border-top: 2px solid #000;
         border-bottom: 2px solid #000;
