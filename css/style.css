@@ -61,13 +61,19 @@ nav{
     height: 420px;
     border-radius: 50px;
     columns: 400px;
+    object-fit: cover;
     
 }
 .topg{
     width: 100%;
-    height: 100%;
+    height: 500px;
 }
 
+.topg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .txth{
     position: absolute;
     text-align: center;
@@ -77,13 +83,6 @@ nav{
     font-size: 64px;
     color: #C1DF92;
     font-weight: bold;
-}
-
-.topg img{
-    display: grid;
-    place-items: center;
-    width:100%;
-    height: 100%;
 }
 
 footer{

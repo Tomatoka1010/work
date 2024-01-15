@@ -47,7 +47,13 @@ nav{
 }
 .topg{
     width: 100%;
+    height: 400px;
+}
+
+.topg img{
+    width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .txth{
@@ -61,26 +67,20 @@ nav{
     font-weight: bold;
 }
 
-.topg img{
-    display: grid;
-    place-items: center;
-    width:100%;
-    height: 100%;
-}
-
 .fotg{
     display: grid;
     grid-template-columns: repeat(6,1fr);
     place-items: center;
-    border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
 }
 .fotg img{
     width: 200px;
     height: 200px;
     border-radius: 100%;
+    object-fit: cover;
 }
 .fotg p{
     margin: 10px;

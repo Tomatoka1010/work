@@ -3,9 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #A4BE7B;
+}
 main
 {
-    background-color: #A4BE7B;
+    background-color: transparent;
 }
 nav{
     display: flex;
@@ -14,3 +17,140 @@ nav{
     background-color: #A4BE7B;
     font-size: 25px;
 }
+.container{
+    padding: 0;
+    margin: 0;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.menu li{
+    margin-left: 40px;
+}
+
+.menu li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.topg{
+    width: 100%;
+    height: 500px;
+}
+.topg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.topg img{
+    display: grid;
+    place-items: center;
+    width:100%;
+    height: 100%;
+}
+.txth{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-320%);
+    font-size: 64px;
+    color: #C1DF92;
+    font-weight: bold;
+}
+.fotg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.fotg .txt{
+    width: 890px;
+    height: 500px;
+    padding: 100px;
+    font-size: 23.5px;
+    text-align: left;
+    background-color: #C1DF92;
+    border-radius: 40px;
+    justify-content: center;
+}
+.w100{
+    width: 100%;
+}
+.fimg img{
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 200px;
+    object-fit: cover;
+}
+footer{
+    height: 100px;
+    background-color: transparent;
+    
+}
+/* CSS */
+.button-68 {
+    appearance: none;
+    backface-visibility: hidden;
+    background-color: #27ae60;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.5;
+    outline: none;
+    overflow: hidden;
+    padding: 13px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+  }
+  
+  .button-68:hover {
+    background-color: #1e8449;
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration: .35s;
+  }
+  
+  .button-68:active {
+    transform: translateY(2px);
+    transition-duration: .35s;
+  }
+  
+  .button-68:hover {
+    box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+  }
+  .btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-28%,680%);
+  }
