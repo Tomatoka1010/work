@@ -41,7 +41,7 @@ nav{
 
 .menu li a{
     color: black;
-    font-size: 16px;
+    font-size: 12px;
     text-decoration: none;
     font-weight: bold;
 }
@@ -94,7 +94,7 @@ nav{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-100%,150%);
+    transform: translate(-80%,150%);
     width: 250px;
     height: 200px;
     padding: 20px;
@@ -201,7 +201,7 @@ footer{
     }
     .topg{
         width: 100%;
-        height: 500px;
+        height: 350px;
     }
     .topg img{
         width: 100%;
@@ -219,7 +219,7 @@ footer{
         text-align: center;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-320%);
+        transform: translate(-50%,-250%);
         font-size: 64px;
         color: #C1DF92;
         font-weight: bold;
@@ -232,10 +232,10 @@ footer{
     }
     
     .fotg .txt{
-        width: 200px;
-        height: 300px;
+        width: 490px;
+        height: 400px;
         padding: 50px;
-        font-size: 20px;
+        font-size: 17px;
         text-align: left;
         background-color: #C1DF92;
         border-radius: 40px;
@@ -245,9 +245,9 @@ footer{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-100%,190%);
-        width: 200px;
-        height: 300px;
+        transform: translate(-100%,110%);
+        width: 300px;
+        height: 400px;
         padding: 20px;
         border-radius: 200px;
         object-fit: cover;
@@ -270,7 +270,7 @@ footer{
         cursor: pointer;
         display: inline-block;
         font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 600;
         letter-spacing: normal;
         line-height: 1.5;
@@ -309,7 +309,7 @@ footer{
         top: 50%;
         left: 50%;
         width: 20%;
-        transform: translate(-28%,750%);
+        transform: translate(5%,750%);
       }
 }
 
@@ -388,10 +388,11 @@ footer{
     }
 
     .fotg .txt{
-        width: 690px;
+        width: 590px;
         height: 500px;
         padding: 50px;
-        font-size: 23.5px;
+        font-size: 21px;
+        width: 65%;
         text-align: left;
         background-color: #C1DF92;
         border-radius: 40px;
@@ -402,8 +403,8 @@ footer{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(70%,20%);
-        width: 400px;
+        transform: translate(15%,20%);
+        width: 390px;
         height: 300px;
         padding: 20px;
         border-radius: 200px;
@@ -465,7 +466,8 @@ footer{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-10%,580%);
+        width: 50%;
+        transform: translate(-15%,580%);
       }
     
     footer{

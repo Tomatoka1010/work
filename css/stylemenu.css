@@ -35,7 +35,6 @@ nav{
 
 .menu{
     display: flex;
-    font-size: 18px;
     list-style: none;
     align-items: center;
 }
@@ -45,7 +44,7 @@ nav{
 
 .menu li a{
     color: black;
-    font-size: 16px;
+    font-size: 12px;
     text-decoration: none;
     font-weight: bold;
 }
@@ -65,7 +64,7 @@ nav{
     text-align: center;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-340%);
+    transform: translate(-50%,-380%);
     font-size: 32px;
     color: #C1DF92;
     font-weight: bold;
@@ -94,7 +93,7 @@ nav{
 }
 .txtmenu{
     margin: 10px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     justify-content: center; 
 }
@@ -138,15 +137,14 @@ footer{
     
     .menu li a{
         color: black;
-        font-size: 26px;
+        font-size: 20px;
         text-decoration: none;
         font-weight: bold;
     }
     .topg{
         width: 100%;
-        height: 500px;
+        height: 450px;
     }
-    
     
     .txth{
         position: absolute;
@@ -169,8 +167,8 @@ footer{
         border-bottom: 2px solid #000;
     }
     .fotg img{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         border-radius: 100%;
         object-fit: cover;
     }
@@ -257,14 +255,14 @@ footer{
         border-bottom: 2px solid #000;
     }
     .fotg img{
-        width: 200px;
-        height: 200px;
+        width: 230px;
+        height: 230px;
         border-radius: 100%;
         object-fit: cover;
     }
     .fotg p{
         margin: 10px;
-        font-size: 25px;
+        font-size: 24px;
         text-align: center;
         justify-content: center;
     }

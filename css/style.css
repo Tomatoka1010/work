@@ -43,7 +43,7 @@ nav{
 
 .menu li a{
     color: black;
-    font-size: 16px;
+    font-size: 12px;
     text-decoration: none;
     font-weight: bold;
 }
@@ -125,7 +125,7 @@ footer{
     }
     .menu li a{
         color: black;
-        font-size: 26px;
+        font-size: 16px;
         text-decoration: none;
         font-weight: bold;
     }
@@ -152,7 +152,7 @@ footer{
     }
     
     .fotg img{
-        width: 240px;
+        width: 220px;
         height: 210px;
         border-radius: 50px;
         object-fit: cover;

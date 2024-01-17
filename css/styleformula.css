@@ -32,7 +32,6 @@ nav{
 
 .menu{
     display: flex;
-    font-size: 18px;
     list-style: none;
     align-items: center;
 }
@@ -42,7 +41,7 @@ nav{
 
 .menu li a{
     color: black;
-    font-size: 16px;
+    font-size: 12px;
     text-decoration: none;
     font-weight: bold;
 }
@@ -89,24 +88,23 @@ nav{
 }
 
 .img img{
-    width: 320px;
+    width: 310px;
     height: 400px;
     border-radius: 38%;
     object-fit: cover;
 }
 
 .w100{
-    width: 85%;
+    width: 100%;
 }
 
 .fotg .txt{
     padding: 20px;
-    font-size: 14px;
-    text-align: left;
+    font-size: 10px;
     
 }
 
-.fotg .txt p{
+.fotg .txt p {
     border-top: 2px solid #000;
 }
 
@@ -123,7 +121,7 @@ nav{
   cursor: pointer;
   display: inline-block;
   font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
-  font-size: 16px;
+  font-size: 10px;
   font-weight: 600;
   letter-spacing: normal;
   line-height: 1.5;
@@ -162,8 +160,8 @@ nav{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 50%;
-    transform: translate(-15%,450%);
+    width: 10%;
+    transform: translate(100%,450%);
   }
 
 footer{
@@ -218,7 +216,7 @@ footer{
         text-align: center;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-280%);
+        transform: translate(-50%,-380%);
         font-size: 64px;
         color: #C1DF92;
         font-weight: bold;
@@ -254,8 +252,8 @@ footer{
     
     
     .fotg .txt{
-        padding: 100px;
-        font-size: 20px;
+        padding: 50px;
+        font-size: 15px;
         text-align: left;
         
     }
