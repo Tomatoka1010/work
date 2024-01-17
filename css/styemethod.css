@@ -22,8 +22,8 @@ nav{
     margin: 0;
 }
 .logo img{
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
 }
 
 .logo a{
@@ -41,12 +41,13 @@ nav{
 
 .menu li a{
     color: black;
+    font-size: 16px;
     text-decoration: none;
     font-weight: bold;
 }
 .topg{
     width: 100%;
-    height: 500px;
+    height: 250px;
 }
 .topg img{
     width: 100%;
@@ -65,7 +66,7 @@ nav{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-320%);
-    font-size: 64px;
+    font-size: 32px;
     color: #C1DF92;
     font-weight: bold;
 }
@@ -77,10 +78,10 @@ nav{
 }
 
 .fotg .txt{
-    width: 890px;
-    height: 500px;
-    padding: 100px;
-    font-size: 23.5px;
+    width: 490px;
+    height: 250px;
+    padding: 20px;
+    font-size: 13.5px;
     text-align: left;
     background-color: #C1DF92;
     border-radius: 40px;
@@ -90,8 +91,12 @@ nav{
     width: 100%;
 }
 .fimg img{
-    width: 400px;
-    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%,150%);
+    width: 250px;
+    height: 200px;
     padding: 20px;
     border-radius: 200px;
     object-fit: cover;
@@ -152,5 +157,320 @@ footer{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-28%,680%);
+    transform: translate(-28%,600%);
   }
+
+
+
+/*ไอแพด*/
+@media (min-width:768px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #A4BE7B;
+        font-size: 25px;
+    }
+    .container{
+        padding: 0;
+        margin: 0;
+    }
+    .logo img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .logo a{
+        text-decoration: none;
+    }
+    
+    .menu{
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+    .menu li{
+        margin-left: 40px;
+    }
+    
+    .menu li a{
+        color: black;
+        font-size: 26px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .topg{
+        width: 100%;
+        height: 500px;
+    }
+    .topg img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .topg img{
+        display: grid;
+        place-items: center;
+        width:100%;
+        height: 100%;
+    }
+    .txth{
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-320%);
+        font-size: 64px;
+        color: #C1DF92;
+        font-weight: bold;
+    }
+    .fotg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    .fotg .txt{
+        width: 200px;
+        height: 300px;
+        padding: 50px;
+        font-size: 20px;
+        text-align: left;
+        background-color: #C1DF92;
+        border-radius: 40px;
+        justify-content: center;
+    }
+    .fimg img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-100%,190%);
+        width: 200px;
+        height: 300px;
+        padding: 20px;
+        border-radius: 200px;
+        object-fit: cover;
+    }
+    footer{
+        height: 100px;
+        background-color: transparent;
+        
+    }
+    /* CSS */
+    .button-68 {
+        appearance: none;
+        backface-visibility: hidden;
+        background-color: #27ae60;
+        border-radius: 8px;
+        border-style: none;
+        box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: normal;
+        line-height: 1.5;
+        outline: none;
+        overflow: hidden;
+        padding: 13px 20px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transform: translate3d(0, 0, 0);
+        transition: all .3s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: top;
+        white-space: nowrap;
+      }
+      
+      .button-68:hover {
+        background-color: #1e8449;
+        opacity: 1;
+        transform: translateY(0);
+        transition-duration: .35s;
+      }
+      
+      .button-68:active {
+        transform: translateY(2px);
+        transition-duration: .35s;
+      }
+      
+      .button-68:hover {
+        box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+      }
+      .btn{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 20%;
+        transform: translate(-28%,750%);
+      }
+}
+
+
+
+  /*จอปกติ*/
+@media (min-width:922px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #A4BE7B;
+        font-size: 25px;
+    }
+    .container{
+        padding: 0;
+        margin: 0;
+    }
+    .logo img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .logo a{
+        text-decoration: none;
+    }
+    
+    .menu{
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+    .menu li{
+        margin-left: 40px;
+    }
+    
+    .menu li a{
+        color: black;
+        font-size: 32px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .topg{
+        width: 100%;
+        height: 500px;
+    }
+    .topg img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .topg img{
+        display: grid;
+        place-items: center;
+        width:100%;
+        height: 100%;
+    }
+    .txth{
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-320%);
+        font-size: 64px;
+        color: #C1DF92;
+        font-weight: bold;
+    }
+    .fotg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .w100{
+        width: 65%;
+    }
+
+    .fotg .txt{
+        width: 690px;
+        height: 500px;
+        padding: 50px;
+        font-size: 23.5px;
+        text-align: left;
+        background-color: #C1DF92;
+        border-radius: 40px;
+        justify-content: center;
+    }
+    
+    .fimg img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(70%,20%);
+        width: 400px;
+        height: 300px;
+        padding: 20px;
+        border-radius: 200px;
+        object-fit: cover;
+    }
+    footer{
+        height: 100px;
+        background-color: transparent;
+        
+    }
+    /* CSS */
+    .button-68 {
+        appearance: none;
+        backface-visibility: hidden;
+        background-color: #27ae60;
+        border-radius: 8px;
+        border-style: none;
+        box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: normal;
+        line-height: 1.5;
+        outline: none;
+        overflow: hidden;
+        padding: 13px 20px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transform: translate3d(0, 0, 0);
+        transition: all .3s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: top;
+        white-space: nowrap;
+      }
+      
+      .button-68:hover {
+        background-color: #1e8449;
+        opacity: 1;
+        transform: translateY(0);
+        transition-duration: .35s;
+      }
+      
+      .button-68:active {
+        transform: translateY(2px);
+        transition-duration: .35s;
+      }
+      
+      .button-68:hover {
+        box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+      }
+      .btn{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-10%,580%);
+      }
+    
+    footer{
+        height: 200px;
+        background-color: transparent;
+        
+    } 
+}

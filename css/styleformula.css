@@ -22,8 +22,8 @@ nav{
     margin: 0;
 }
 .logo img{
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
 }
 
 .logo a{
@@ -32,6 +32,7 @@ nav{
 
 .menu{
     display: flex;
+    font-size: 18px;
     list-style: none;
     align-items: center;
 }
@@ -41,12 +42,13 @@ nav{
 
 .menu li a{
     color: black;
+    font-size: 16px;
     text-decoration: none;
     font-weight: bold;
 }
 .topg{
     width: 100%;
-    height: 500px;
+    height: 250px;
 }
 .topg img{
     width: 100%;
@@ -65,8 +67,8 @@ nav{
     text-align: center;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-280%);
-    font-size: 64px;
+    transform: translate(-50%,-350%);
+    font-size: 32px;
     color: #C1DF92;
     font-weight: bold;
 }
@@ -85,24 +87,21 @@ nav{
     padding: 50px;
     box-sizing: border-box;
 }
-.img{
-    padding: 20px;
-}
+
 .img img{
-    width: 450px;
-    height: 500px;
+    width: 320px;
+    height: 400px;
     border-radius: 38%;
     object-fit: cover;
 }
 
 .w100{
-    width: 100%;
+    width: 85%;
 }
 
-
 .fotg .txt{
-    padding: 100px;
-    font-size: 20px;
+    padding: 20px;
+    font-size: 14px;
     text-align: left;
     
 }
@@ -159,8 +158,326 @@ nav{
   box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
 }
 
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-15%,450%);
+  }
+
 footer{
     height: 200px;
     background-color: transparent;
     
+}
+/*ไอแพด*/
+@media (min-width:768px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #A4BE7B;
+        font-size: 25px;
+    }
+    .container{
+        padding: 0;
+        margin: 0;
+    }
+    .logo img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .logo a{
+        text-decoration: none;
+    }
+    
+    .menu{
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+    .menu li{
+        margin-left: 40px;
+    }
+    
+    .menu li a{
+        color: black;
+        font-size: 26px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .topg{
+        width: 100%;
+        height: 500px;
+    }
+    
+    .txth{
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-280%);
+        font-size: 64px;
+        color: #C1DF92;
+        font-weight: bold;
+    }
+    
+    .fotg{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .fotg .img img{
+        display: flex;
+        flex-basis: 50%;
+        flex-direction: column;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    .img{
+        padding: 20px;
+    }
+    .img img{
+        width: 450px;
+        height: 500px;
+        border-radius: 38%;
+        object-fit: cover;
+    }
+    
+    .w100{
+        width: 100%;
+    }
+    
+    
+    .fotg .txt{
+        padding: 100px;
+        font-size: 20px;
+        text-align: left;
+        
+    }
+    
+    .fotg .txt p{
+        border-top: 2px solid #000;
+    }
+    
+    /* CSS */
+    .button-68 {
+      appearance: none;
+      backface-visibility: hidden;
+      background-color: #27ae60;
+      border-radius: 8px;
+      border-style: none;
+      box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: normal;
+      line-height: 1.5;
+      outline: none;
+      overflow: hidden;
+      padding: 13px 20px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      transform: translate3d(0, 0, 0);
+      transition: all .3s;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: top;
+      white-space: nowrap;
+    }
+    
+    .button-68:hover {
+      background-color: #1e8449;
+      opacity: 1;
+      transform: translateY(0);
+      transition-duration: .35s;
+    }
+    
+    .button-68:active {
+      transform: translateY(2px);
+      transition-duration: .35s;
+    }
+    
+    .button-68:hover {
+      box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+    }
+
+    .btn{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 50%;
+        transform: translate(-15%,630%);
+      }
+    
+    footer{
+        height: 200px;
+        background-color: transparent;
+        
+    } 
+}
+/*จอปกติ*/
+@media (min-width:922px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #A4BE7B;
+        font-size: 25px;
+    }
+    .container{
+        padding: 0;
+        margin: 0;
+    }
+    .logo img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .logo a{
+        text-decoration: none;
+    }
+    
+    .menu{
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+    .menu li{
+        margin-left: 40px;
+    }
+    
+    .menu li a{
+        color: black;
+        font-size: 32px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .topg{
+        width: 100%;
+        height: 500px;
+    }
+    
+    .txth{
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-280%);
+        font-size: 64px;
+        color: #C1DF92;
+        font-weight: bold;
+    }
+    
+    .fotg{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .fotg .img img{
+        display: flex;
+        flex-basis: 50%;
+        flex-direction: column;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    .img{
+        padding: 20px;
+    }
+    .img img{
+        width: 450px;
+        height: 500px;
+        border-radius: 38%;
+        object-fit: cover;
+    }
+    
+    .w100{
+        width: 100%;
+    }
+    
+    
+    .fotg .txt{
+        padding: 100px;
+        font-size: 20px;
+        text-align: left;
+        
+    }
+    
+    .fotg .txt p{
+        border-top: 2px solid #000;
+    }
+    
+    /* CSS */
+    .button-68 {
+      appearance: none;
+      backface-visibility: hidden;
+      background-color: #27ae60;
+      border-radius: 8px;
+      border-style: none;
+      box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: normal;
+      line-height: 1.5;
+      outline: none;
+      overflow: hidden;
+      padding: 13px 20px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      transform: translate3d(0, 0, 0);
+      transition: all .3s;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: top;
+      white-space: nowrap;
+    }
+    
+    .button-68:hover {
+      background-color: #1e8449;
+      opacity: 1;
+      transform: translateY(0);
+      transition-duration: .35s;
+    }
+    
+    .button-68:active {
+      transform: translateY(2px);
+      transition-duration: .35s;
+    }
+    
+    .button-68:hover {
+      box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+    }
+
+    .btn{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 50%;
+        transform: translate(-25%,630%);
+      }
+    
+    footer{
+        height: 200px;
+        background-color: transparent;
+        
+    } 
 }

@@ -12,7 +12,7 @@ main
 }
 
 nav{
-    display: block;
+    display: flex;
     /* justify-content: space-between; */
     padding: 20px;
     background-color: #A4BE7B;
@@ -33,17 +33,18 @@ nav{
 }
 
 .menu{
-    display: block;
+    display: flex;
     font-size: 18px;
     list-style: none;
     align-items: center;
 }
 .menu li{
-    margin-left: 10px;
+    margin-left: 40px;
 }
 
 .menu li a{
     color: black;
+    font-size: 16px;
     text-decoration: none;
     font-weight: bold;
 }
@@ -98,7 +99,6 @@ footer{
 }
 .textp{
     margin: 10px;
-    font-size: 16px;
     text-align: center;
     justify-content: center;  
 }
@@ -123,6 +123,12 @@ footer{
         display: flex;
         list-style: none;
         align-items: center;
+    }
+    .menu li a{
+        color: black;
+        font-size: 26px;
+        text-decoration: none;
+        font-weight: bold;
     }
     .menu li{
         margin-left: 40px;
@@ -195,9 +201,14 @@ footer{
     
     .menu{
         display: flex;
-        font-size: 32px;
         list-style: none;
         align-items: center;
+    }
+    .menu li a{
+        color: black;
+        font-size: 32px;
+        text-decoration: none;
+        font-weight: bold;
     }
     .menu li{
         margin-left: 40px;
